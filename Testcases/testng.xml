@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="WestGateSuite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.appiumdemo.WestGate">
+				<methods>
+					<include name="launchingApp"></include>
+					<include name="playerLogin"></include>
+					<include name="StraightBetConfig"></include>
+					<include name="ParlayBetConfig"></include>
+					<include name="TeaserBetConfig"></include>
+					<include name="Round_robinBetConfig"></include>
+					<include name="TeaserBetWithWagerLimitOver"></include>
+					<include name="logout"></include>
+				</methods>
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- WestGateSuite -->

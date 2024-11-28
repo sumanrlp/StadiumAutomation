@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BetPlacement_EQC">
+	<test name="BetPlacement">
+		<classes>
+			<class name="com.appiumdemo.MGM_EQC">
+				<methods>
+					<include name="launchingApp"></include>
+					<include name="landingOnHomePage"></include>
+					<include name="playerLogin"></include>
+					<include name="logout"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

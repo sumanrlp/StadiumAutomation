@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BetPlacement_EQC]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="BetPlacement(failed)">
+    <classes>
+      <class name="com.appiumdemo.MGM_EQC">
+        <methods>
+          <include name="playerLogin"/>
+        </methods>
+      </class> <!-- com.appiumdemo.MGM_EQC -->
+    </classes>
+  </test> <!-- BetPlacement(failed) -->
+</suite> <!-- Failed suite [BetPlacement_EQC] -->

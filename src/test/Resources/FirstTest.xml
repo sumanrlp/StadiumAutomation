@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="PlayerLoginJourney">
+	<test name="PlayerLogin">
+		<classes>
+			<class name="com.appiumdemo.BetMGM_NV_QA_env">
+				<methods>
+					<include name="LaunchingApp"></include>
+					<include name="LandingOnHomePage"></include>
+					<include name="PlayerLogin"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

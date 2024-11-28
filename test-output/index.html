@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-WestGateSuite" class="navigator-link">
+              <span class="suite-name border-failed">WestGateSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-WestGateSuite" class="navigator-link ">
+                    <span>C:\Users\Rushikesh.Potadar\Downloads\Stadium_Automation-main\Stadium_Automation-main\AppiumDemo1\Testcases\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-WestGateSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-WestGateSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-WestGateSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-WestGateSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-WestGateSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-WestGateSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-WestGateSuite" class="hide-methods failed suite-WestGateSuite"> (hide)</a> <!-- hide-methods failed suite-WestGateSuite -->
+                      <a href="#" panel-name="suite-WestGateSuite" class="show-methods failed suite-WestGateSuite"> (show)</a> <!-- show-methods failed suite-WestGateSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-WestGateSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="TeaserBetConfig">TeaserBetConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-WestGateSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-WestGateSuite" class="hide-methods passed suite-WestGateSuite"> (hide)</a> <!-- hide-methods passed suite-WestGateSuite -->
+                      <a href="#" panel-name="suite-WestGateSuite" class="show-methods passed suite-WestGateSuite"> (show)</a> <!-- show-methods passed suite-WestGateSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-WestGateSuite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="ParlayBetConfig">ParlayBetConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="Round_robinBetConfig">Round_robinBetConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="StraightBetConfig">StraightBetConfig</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="TeaserBetWithWagerLimitOver">TeaserBetWithWagerLimitOver</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="launchingApp">launchingApp</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-WestGateSuite" title="com.appiumdemo.WestGate" class="method navigator-link" hash-for-method="playerLogin">playerLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-WestGateSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-WestGateSuite" class="panel WestGateSuite">
+          <div class="suite-WestGateSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.appiumdemo.WestGate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TeaserBetConfig">
+                  </a> <!-- TeaserBetConfig -->
+                  <span class="method-name">TeaserBetConfig</span>
+                  <div class="stack-trace">java.lang.AssertionError: Maximum risk amount is 0.00.
+	at com.appiumdemo.WestGate.placingBet(WestGate.java:296)
+	at com.appiumdemo.WestGate.TeaserBetConfig(WestGate.java:523)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WestGateSuite-class-failed -->
+          <div class="suite-WestGateSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.appiumdemo.WestGate</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="ParlayBetConfig">
+                  </a> <!-- ParlayBetConfig -->
+                  <span class="method-name">ParlayBetConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Round_robinBetConfig">
+                  </a> <!-- Round_robinBetConfig -->
+                  <span class="method-name">Round_robinBetConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="StraightBetConfig">
+                  </a> <!-- StraightBetConfig -->
+                  <span class="method-name">StraightBetConfig</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TeaserBetWithWagerLimitOver">
+                  </a> <!-- TeaserBetWithWagerLimitOver -->
+                  <span class="method-name">TeaserBetWithWagerLimitOver</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="launchingApp">
+                  </a> <!-- launchingApp -->
+                  <span class="method-name">launchingApp</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="playerLogin">
+                  </a> <!-- playerLogin -->
+                  <span class="method-name">playerLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-WestGateSuite-class-passed -->
+        </div> <!-- panel WestGateSuite -->
+        <div panel-name="test-xml-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Rushikesh.Potadar\Downloads\Stadium_Automation-main\Stadium_Automation-main\AppiumDemo1\Testcases\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;WestGateSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.appiumdemo.WestGate&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;launchingApp&quot;/&gt;
+          &lt;include name=&quot;playerLogin&quot;/&gt;
+          &lt;include name=&quot;StraightBetConfig&quot;/&gt;
+          &lt;include name=&quot;ParlayBetConfig&quot;/&gt;
+          &lt;include name=&quot;TeaserBetConfig&quot;/&gt;
+          &lt;include name=&quot;Round_robinBetConfig&quot;/&gt;
+          &lt;include name=&quot;TeaserBetWithWagerLimitOver&quot;/&gt;
+          &lt;include name=&quot;logout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.appiumdemo.WestGate --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- WestGateSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for WestGateSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for WestGateSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for WestGateSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_WestGateSuite');
+function tableData_WestGateSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(8);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Round_robinBetConfig')
+data.setCell(0, 2, 'com.appiumdemo.WestGate')
+data.setCell(0, 3, 54352);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'ParlayBetConfig')
+data.setCell(1, 2, 'com.appiumdemo.WestGate')
+data.setCell(1, 3, 46064);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'StraightBetConfig')
+data.setCell(2, 2, 'com.appiumdemo.WestGate')
+data.setCell(2, 3, 39266);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TeaserBetConfig')
+data.setCell(3, 2, 'com.appiumdemo.WestGate')
+data.setCell(3, 3, 36273);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TeaserBetWithWagerLimitOver')
+data.setCell(4, 2, 'com.appiumdemo.WestGate')
+data.setCell(4, 3, 36212);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'launchingApp')
+data.setCell(5, 2, 'com.appiumdemo.WestGate')
+data.setCell(5, 3, 30452);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'playerLogin')
+data.setCell(6, 2, 'com.appiumdemo.WestGate')
+data.setCell(6, 3, 8554);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'logout')
+data.setCell(7, 2, 'com.appiumdemo.WestGate')
+data.setCell(7, 3, 3618);
+window.suiteTableData['WestGateSuite']= { tableData: data, tableDiv: 'times-div-WestGateSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <div id="times-div-WestGateSuite">
+              </div> <!-- times-div-WestGateSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for WestGateSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.appiumdemo.WestGate</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">placingBet</span>
+                <br/>
+                <span class="ignored-method-name">addingOddsToBetslip</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-WestGateSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.appiumdemo.WestGate</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">beforeTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">launchingApp</span>
+                <span class="method-start">37 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">playerLogin</span>
+                <span class="method-start">30493 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">StraightBetConfig</span>
+                <span class="method-start">39047 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">ParlayBetConfig</span>
+                <span class="method-start">78314 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TeaserBetConfig</span>
+                <span class="method-start">124379 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Round_robinBetConfig</span>
+                <span class="method-start">160655 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">TeaserBetWithWagerLimitOver</span>
+                <span class="method-start">215009 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">251223 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
